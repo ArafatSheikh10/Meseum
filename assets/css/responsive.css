@@ -1,0 +1,858 @@
+/* XL Device :1200px. */
+
+@media screen and (max-width: 1620px) {
+
+    .bible__slider--nav {
+        right: 8% !important;
+    }
+
+}
+
+@media screen and (max-width: 1449px) {
+
+    .custom-navigation {
+        right: 24px !important;
+    }
+
+    .swiper-pagination-fraction {
+        bottom: 90px !important;
+        right: 17px !important;
+    }
+
+    .about__area {
+        padding: 165px 0 0 0;
+    }
+
+    .rotate__title {
+        position: absolute;
+        left: 0;
+        top: -77px;
+        transform: rotate(0deg);
+    }
+
+    .footer__contact--list {
+        gap: 15px;
+        margin-top: 42px;
+    }
+
+
+
+}
+
+
+/* LG Device :992px. */
+
+@media screen and (max-width: 1199px) {
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .primary__btn {
+        padding: 14px 25px;
+    }
+
+    .header__top--area {
+        padding: 20px 24px 20px 20px;
+    }
+
+    .header__top--area p {
+        font-size: 16px;
+    }
+
+    .header__top--right ul {
+        gap: 0 70px;
+    }
+
+    .header__top--right ul li a {
+        font-size: 18px;
+    }
+
+    .header__top--right {
+        gap: 0 80px;
+    }
+
+    .header__menu ul {
+        gap: 20px 40px;
+    }
+
+    .header__menu ul li a {
+        font-size: 18px;
+    }
+
+    .buy__ticket--btn {
+        font-size: 13px;
+    }
+
+    .hero__content h1 {
+        font-size: 60px;
+        width: 960px;
+    }
+
+    .hero__slide {
+        height: 646px;
+    }
+
+    .hero__content {
+        padding-top: 230px;
+    }
+
+    .hero__content p {
+        font-size: 37px;
+    }
+
+    .hero__area {
+        padding: 260px 0 40px;
+    }
+
+    .info__card--icon {
+        width: 54px;
+        height: 54px;
+    }
+
+    .info__card--content p {
+        font-size: 18px;
+    }
+   
+    .building-image {
+        max-width: 582px;
+        max-height: 353px;
+        top: -58%;
+    }
+
+    .hero__btn--wraper {
+        margin-top: 65px;
+    }
+
+    .info__area {
+        margin-top: -100px;
+    }
+
+    .about__inner {
+        padding: 50px 0 60px;
+    }
+
+    .about__text--box p {
+        font-size: 17px;
+    }
+
+    .common__card--content p {
+        font-size: 16px;
+    }
+
+    .common__card--image {
+        height: 310px;
+    }
+
+    .coulmn__content--wraper {
+        gap: 130px;
+    }
+
+    .about__card--wraper {
+        gap: 45px 34px;
+    }
+
+    .coulmn__card--wraper {
+        gap: 45px;
+    }
+
+    .common__card--content h4 {
+        font-size: 22px;
+    }
+
+    .hero__social--area {
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero__content h1 {
+        padding-left: 0;
+    }
+
+    .hero__content p {
+        padding-left: 0;
+    }
+
+    .hero__social--area p {
+        transform: rotate(0deg) translate(-50px, 0px);
+    }
+
+    .hero__social--area span {
+        width: 48px;
+        height: 2px;
+    }
+
+    .hero__social--area ul {
+        flex-direction: row;
+    }
+
+    .hero__social--area p{
+        font-size: 14px;
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+
+    .coulmn__wraper {
+        grid-template-columns: 23% 35% 35%;
+        padding-bottom: 70px;
+    }
+
+    .common__card--content {
+        padding: 20px 0px 0 0;
+    }
+
+    .bible__area {
+        padding: 68px 0 60px;
+    }
+
+    .bible__b {
+        width: 650px;
+        height: 456px;
+    }
+
+    .exhibits__area {
+        padding: 75px 0 90px;
+    }
+
+    .exhibits__area .row {
+        --bs-gutter-x: 35px;
+    }
+
+    .common__card--image {
+        height: 285px;
+    }
+
+    .common__card--image__small {
+        height: 240px !important;
+    }
+    
+    .section__title-content {
+        max-width: 797px;
+    }
+
+    .bible__slider--nav {
+        right: 3% !important;
+        margin-top: 121px;
+        transform: translateX(31px);
+    }
+
+    .bible__card--image {
+        height: 280px;
+    }
+
+    .bible__card--image {
+        height: 290px;
+    }
+
+    .bible__card--content h4 {
+        font-size: 24px;
+    }
+
+    .bible__card--content p {
+        font-size: 16px;
+    }
+
+    .bible__read--btn {
+        margin-top: 20px;
+    }
+
+    .contact__content h3 {
+        font-size: 27px;
+    }
+
+    form input {
+        padding: 15px 20px;
+    }
+
+    .contact__logo--position {
+        width: 380px;
+        height: 143px;
+    }
+
+    .footer__contact--list .footer__icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer__contact--list {
+        gap: 14px;
+        margin-top: 42px;
+    }
+
+    .footer__contact--list h5 {
+        font-size: 18px;
+    }
+
+    .footer__menu li a {
+        font-size: 16px;
+    }
+
+    .footer__contact--list span {
+        font-size: 13px;
+    }
+
+    .social__menu li a {
+        width: 40px;
+        height: 40px;
+    }
+    
+
+}
+
+
+/* MD Device :768px. */
+
+@media screen and (max-width: 991px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .header__top--area {
+        padding: 20px 14px 21px 12px;
+    }
+
+    .header__top--area .col-8{
+        padding: 0 !important;
+    }
+
+    .header__top--area p {
+        font-size: 14px;
+    }
+
+    .header__top--right ul {
+        gap: 0 32px;
+    }
+
+    .header__top--right {
+        gap: 0 25px;
+    }
+
+    .header__top--right ul li a {
+        font-size: 16px;
+    }
+
+    .menu__trigger {
+        padding: 6px 0 6px 16px;
+    }
+
+    .menu__trigger img {
+        width: 28px;
+        height: 20px;
+    }
+
+    .header__logo {
+        width: 110px;
+        height: 50px;
+    }
+
+    .header__main--area {
+        padding: 15px;
+        background-color: #353631;
+    }
+
+    .header__menu ul {
+        gap: 20px;
+        justify-content: flex-end;
+        transform: translateX(24px);
+    }
+
+    .header__menu ul li a {
+        font-size: 16px;
+    }
+
+    .buy__ticket--btn {
+        font-size: 11px;
+        padding: 13px 23px;
+    }
+
+    .hero__area {
+        padding: 240px 0 40px;
+    }
+
+    .hero__content {
+        padding-top: 172px;
+    }
+
+    .hero__content h1 {
+        width: 100%;
+        font-size: 48px;
+        top: 43px;
+    }
+
+    .hero__content p {
+        font-size: 31px;
+    }
+
+    .hero__social--area p{
+        font-size: 14px;
+    }
+
+    .hero__btn--wraper {
+        margin-top: 40px;
+    }
+
+    .primary__btn {
+        font-size: 15px;
+        padding: 10px 22px;
+    }
+
+    .hero__calender--icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .hero__slide {
+        height: 456px;
+    }
+
+    .hero__carousel--area {
+        padding-top: 60px;
+    }
+
+    .custom-navigation {
+        top: 34%;
+    }
+    
+    .swiper-pagination-fraction {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .info__inner {
+        padding-left: 40px;
+    }
+
+    .info__card--wraper {
+        max-width: 100%;
+    }
+
+    .info__card--wraper {
+        padding: 25px;
+    }
+
+    .info__card--icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .info__card--content p {
+        font-size: 16px;
+    }
+
+    .info__card {
+        gap: 18px;
+    }
+
+    .building-image {
+        max-width: 410px;
+        max-height: 270px;
+        top: -34%;
+    }
+
+    .hero__slide {
+        height: 400px;
+    }
+
+    .about__area {
+        padding: 142px 0 0 0;
+    }
+
+    .about__text--box p {
+        font-size: 15px;
+    }
+
+    .about__inner {
+        padding: 45px 0 50px;
+    }
+
+    .coulmn__wraper {
+        grid-template-columns: 100%;
+    }
+
+    .coulmn__wraper--container {
+        margin-top: 36px;
+    }
+
+    .coulmn__content--wraper {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .about__card--wraper {
+        gap: 30px 34px;
+    }
+
+    .coulmn__item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .mt-minus-5 {
+        margin-top: 0 !important;
+    }
+
+    .section__title {
+        margin-bottom: 30px;
+    }
+
+    .exhibits__area .row {
+        --bs-gutter-x: 40px;
+    }
+
+    .bible__area {
+        padding: 68px 10px 60px;
+    }
+
+    .section__title-content {
+        max-width: 600px;
+    }
+
+    .bible__slider--wrap {
+        margin-top: 20px;
+        padding: 24px 0 20px;
+    }
+
+    .bible__card--image {
+        height: 260px;
+    }
+
+    .bible__card--content h4 {
+        font-size: 22px;
+    }
+
+    .bible__read--btn {
+        margin-top: 0;
+    }
+
+    .bible__slider--nav {
+        right: 4% !important;
+    }
+
+    .contact__inner {
+        padding: 50px 0 60px;
+    }
+
+    .contact__content h3 {
+        font-size: 25px;
+    }
+
+    .contact__logo--position {
+        width: 320px;
+        height: 120px;
+    }
+
+    form input {
+        padding: 12px 15px;
+    }
+
+    form input {
+        font-size: 16px;
+    }
+
+    .footer__area {
+        padding: 60px 0 20px;
+    }
+
+    .footer__item h4 {
+        font-size: 19px;
+    }
+
+    .footer__item .footer__menu {
+        gap: 8px;
+    }
+
+    .footer__menu li a {
+        font-size: 15px;
+    }
+
+    .social__menu {
+        margin-top: 30px;
+    }
+
+    .footer__contact--list .footer__icon {
+        width: 28px;
+        height: 28px;
+    }
+   
+
+}
+
+
+/* SM Small Device :320px. */
+
+@media screen and (max-width: 767px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .header__top--area p {
+        font-size: 13px;
+    }
+
+    .header__top--right ul {
+        display: none;
+    }
+
+    .menu__trigger img {
+        width: 22px;
+        height: 18px;
+    }
+
+    .header__menu ul {
+        transform: translateX(50px);
+        display: none;
+    }
+
+    .header__logo {
+        width: 96px;
+        height: 35px;
+    }
+
+    .buy__ticket--btn {
+        font-size: 10px;
+        padding: 11px 24px;
+        transform: translateX(15px);
+    }
+
+    .hero__area {
+        padding: 205px 0 40px;
+    }
+
+    .hero__content h1 {
+        font-size: 29px;
+    }
+
+    .hero__content p {
+        font-size: 21px;
+    }
+
+    .hero__social--area p{
+        font-size: 12px;
+    }
+
+    .primary__btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .hero__calender--icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .hero__carousel--area {
+        padding-top: 40px;
+    }
+
+    .hero__slide {
+        height: 265px;
+    }
+
+    .custom-navigation {
+        right: 19px !important;
+        top: 47% !important;
+    }
+
+    .swiper-pagination-fraction {
+        bottom: 20px !important;
+    }
+
+    .info__area {
+        margin-top: -136px;
+    }
+
+    .info__inner {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .building-image {
+        left: -3%;
+        position: relative;
+    }
+
+    .info__card--wraper {
+        gap: 24px 0;
+    }
+
+    .info__card--icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info__card--content p {
+        font-size: 12px;
+    }
+
+    .about__inner {
+        padding: 30px 0 40px;
+    }
+
+    .about__text--box {
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .about__text--box p {
+        font-size: 14px;
+    }
+
+    .about__banner {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .coulmn__wraper {
+        padding-bottom: 52px;
+    }
+
+    .coulmn__wraper--container {
+        margin-top: 8px;
+    }
+
+    .coulmn__item {
+        grid-template-columns: 1fr;
+    }
+
+    .coulmn__card--wraper {
+        gap: 26px;
+    }
+
+    .common__card--content p {
+        font-size: 14px;
+    }
+
+    .common__card--image {
+        height: 232px;
+    }
+
+    .bible__area {
+        padding: 68px 10px 138px;
+    }
+
+    .bible__slider--nav {
+        right: 50% !important;
+        height: 10%;
+        z-index: 9;
+        transform: translate(50%, 150vh);
+        margin: 0;
+    }
+
+    .bible__b {
+        width: 300px;
+        height: 256px;
+    }
+
+    .exhibits__area {
+        padding: 56px 0 60px;
+    }
+
+    .section__title {
+        margin-bottom: 10px;
+    }
+
+    .common__card--content {
+        padding: 20px 0px 0 0;
+        text-align: center;
+    }
+
+    .exhibits__area .primary__btn {
+        margin-top: 26px;
+    }
+
+    .section__title {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section__title-content {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .bible__area .primary__btn {
+        margin: auto;
+    }
+
+    form {
+        margin-top: 25px;
+    }
+
+    form input {
+        padding: 9px 15px;
+    }
+
+    form input[type="submit"] {
+        background: #fff;
+        color: #000;
+        z-index: 1;
+    }
+
+    .contact__logo--position {
+        width: 223px;
+        height: 90px;
+    }
+
+    .footer__area .row{
+        --bs-gutter-y: 2rem;
+    }
+
+    .footer__contact--list {
+        gap: 14px;
+        margin-top: 20px;
+    }
+
+    .footer__contact--list span br{
+        display: none;
+    }
+    
+
+}
+
+
+/* SM Small Device :550px. */
+
+@media (min-width: 575px) and (max-width: 767px) {
+
+    .bible__slider--nav {
+        transform: translate(50%, 150vh);
+    }
+
+    .bible__slider--nav {
+        right: 50% !important;
+        height: 10%;
+        z-index: 9;
+        transform: translate(50%, 141vh);
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+
+    .header__menu ul {
+        transform: translateX(50px);
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+    .bible__slider--nav {
+        transform: translate(50%, 170vh);
+    }
+
+}

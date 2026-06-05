@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome-pro/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    
+    <title>Meseum</title>
+</head>
+
+<body>
+    <div class="main__area">
+
+        <div class="offcanvas offcanvas-start header__top__offcanvas" tabindex="-1" id="offcanvas__offcanvas__header__main" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header p-4">
+                <div class="header__logo">
+                    <a href=""><img src="assets/img/logo.png" alt="Header Logo"></a>
+                </div>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-4">
+                <div class="offcanvas__menu accordion">
+                    <ul class="mobail__menu mobail__menu-1 d-flex flex-column gap-3 pb-4">
+                        <li><a href="#">Give</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Log In</a></li>
+                    </ul>
+                    <ul class="mobail__menu d-flex flex-column gap-3 pt-4">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Visit</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Theater</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                    <ul class="social__menu">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -------------------------- HEADER AREA START -------------------------- -->
+        <header class="header__area">
+          <div class="container">
+            <div class="row align-items-center header__top--area">
+                <div class="col-8 col-sm-9 col-md-4">
+                    <p> OPEN TODAY: 9:00 A.M. – 5:00 P.M.</p>
+                </div>
+                <div class="col-4 col-sm-3 col-md-8">
+                    <div class="header__top--right">
+                        <ul>
+                            <li><a href="#">Give</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Log In</a></li>
+                        </ul>
+                        <div class="d-flex align-items-center gap-2 gap-md-5">
+                            <select class="nice-select language__selector">
+                                <option value="en">En</option>
+                                <option value="my">My</option>
+                                <option value="jp">Jp</option>
+                            </select>
+                            <button class="menu__trigger" data-bs-toggle="offcanvas" 
+                            data-bs-target="#offcanvas__offcanvas__header__main" 
+                            aria-controls="offcanvas__offcanvas__header__main"><img src="assets/icons/menu-trigger.svg" alt="menu trigger"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__main--area">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-2 col-lg-3">
+                        <div class="header__logo">
+                            <img src="assets/img/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="col-0 col-sm-6 col-lg-7 d-none d-sm-block">
+                        <div class="header__menu">
+                            <ul>
+                                <li><a href="#" class="active">Home</a></li>
+                                <li><a href="#">Visit</a></li>
+                                <li><a href="#">Learn</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Theater</a></li>
+                                <li><a href="#">Shop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="#" class="buy__ticket--btn float-end">
+                            <span>BUY TICKETS</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+          </div>
+        </header>
+        <!-- -------------------------- HEADER AREA END ---------------------------->
+
+
+
+
+
+
+
+
+        <!-- -------------------------- HERO AREA START ---------------------------->
+        <section class="hero__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero__content" data-aos="fade-up">
+                            <h1>Discover the Wonders of the Museum of the Bible</h1>
+                            <p>Explore History, Faith, Culture, and Interactive Experiences</p>
+                            <div class="hero__btn--wraper">
+                                <a href="#" class="primary__btn">GET TICKETS</a>
+                                <span class="hero__calender--icon"><img src="assets/icons/calender.svg" alt="calender"></span>
+                            </div>
+                            <div class="hero__social--area">
+                                <p>SOCIAL MEDIA</p>
+                                <span></span>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero__carousel--area" data-aos="zoom-in">
+                            <div class="hero__slider">
+                                <div class="hero__slider--wraper swiper-wrapper">
+                                    <div class="hero__slide swiper-slide">
+                                        <img src="assets/img/hero-banner.png" alt="hero banner">
+                                    </div>
+                                    <div class="hero__slide swiper-slide">
+                                        <img src="assets/img/featured-1.png" alt="featured 1">
+                                    </div>
+                                    <div class="hero__slide swiper-slide">
+                                        <img src="assets/img/featured-2.png" alt="featured 2">
+                                    </div>
+                                </div>                       
+                            </div>
+                            <!-- Navigation Buttons -->
+                            <div class="custom-navigation">
+                                <div class="swiper-prev-text">Prev</div>
+                                <div class="navigation-divider"></div>
+                                <div class="swiper-next-text">Next</div>
+                              </div>
+    
+                            <!-- Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- HERO AREA END ---------------------------->
+
+
+
+
+
+
+
+
+        <!-- -------------------------- INFO AREA START ---------------------------->
+        <section class="info__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="info__inner">
+                            <div class="info__card--wraper">
+                                <div class="info__card" data-aos="fade-up">
+                                    <div class="info__card--icon">
+                                        <img src="assets/icons/watch.svg" alt="watch">
+                                    </div>
+                                    <div class="info__card--content">
+                                        <p>Monday–Saturday: 9:00 a.m. – 5:00 p.m. <br> Sunday: 10:00 a.m. – 5:00 p.m.</p>
+                                    </div>
+                                </div>
+                                <div class="info__card" data-aos="fade-up">
+                                    <div class="info__card--icon">
+                                        <img src="assets/icons/location.svg" alt="location">
+                                    </div>
+                                    <div class="info__card--content">
+                                        <p>400 4TH ST. SW <br> WASHINGTON, DC 20024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/building.png" alt="building" class="building-image" data-aos="zoom-in">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- INFO AREA END ---------------------------->
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------- ABOUT AREA START ---------------------------->
+        <section class="about__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about__inner">
+                            <div class="about__text--box" data-aos="fade-left">
+                                <p>The Museum of the Bible is one of the most innovative and interactive museums in the United States. Located near the U.S. Capitol in Washington, D.C., the museum is dedicated to exploring the history, narrative, and cultural impact of the Bible across the world. Opened in 2017, the museum spans six floors and features ancient artifacts, immersive theaters, digital experiences, rare manuscripts, educational exhibits, and family-friendly attractions. The museum welcomes visitors from all backgrounds and beliefs.</p>
+                            </div>
+                            <img src="assets/img/about-banner.png" alt="about banner" class="about__banner">
+                            <h2 class="rotate__title">About Museum</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row coulmn__wraper--container">
+                    <div class="col-12">
+                        <div class="coulmn__wraper about__card--wraper">
+                            <div class="coulmn__item coulmn__content--wraper">
+                                <div class="common__card" data-aos="fade-up">
+                                    <div class="common__card--content">
+                                        <h2>Museum History</h2>
+                                        <p>The Museum of the Bible was established by the Green family and officially opened on November 17, 2017. The museum was created to preserve and showcase the Bible’s historical significance and its influence on civilization, literature, art, and culture. The institution houses thousands of biblical artifacts and manuscripts dating back over 4,000 years.</p>
+                                    </div>
+                                </div>
+                                <div class="common__card" data-aos="fade-up">
+                                    <div class="common__card--content">
+                                        <h2>Museum Tours</h2>
+                                        <p>The museum offers several guided and self-guided tours for visitors:</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coulmn__item coulmn__card--wraper">
+                                <div class="common__card" data-aos="fade-up">
+                                    <div class="common__card--image">
+                                        <img src="assets/img/card-img-1.png" alt="card img 1">
+                                    </div>
+                                </div>
+                                <div class="common__card" data-aos="fade-up">
+                                    <div class="common__card--image">
+                                        <img src="assets/img/card-img-3.png" alt="card img 3">
+                                    </div>
+                                    <div class="common__card--content">
+                                        <h4>Christian Faith Tour</h4>
+                                        <p>A faith-centered tour explaining the formation and influence of the Bible throughout history.</p>
+                                    </div>
+                                </div>
+                            </div>            
+                            <div class="coulmn__item coulmn__card--wraper mt-minus-5">
+                                <div class="common__card" data-aos="fade-up">
+                                    <div class="common__card--image">
+                                        <img src="assets/img/card-img-2.png" alt="card img 2">
+                                    </div>
+                                </div>
+                                <div class="common__card" data-aos="fade-up">
+                                    <div class="common__card--image">
+                                        <img src="assets/img/card-img-4.png" alt="card img 4">
+                                    </div>
+                                    <div class="common__card--content">
+                                        <h4>World of Jesus of Nazareth Tour</h4>
+                                        <p>An immersive experience that recreates a first-century Galilean village where visitors can explore the culture and daily life during the time of Jesus.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                            <img src="assets/img/bible.png" alt="bible" class="bible__b">           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- ABOUT AREA END ---------------------------->
+
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------- EXHIBITS AREA START ---------------------------->
+        <section class="exhibits__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section__title text-center">
+                            <h2>Exhibits & Attractions</h2>
+                        </div>                      
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="coulmn__card--wraper">
+                            <div class="common__card">
+                                <div class="common__card--content pe-0 pe-sm-5 pb-4">
+                                    <h4>The Impact of the Bible</h4>
+                                    <p class="pe-0 pe-sm-5 mt-1 mt-sm-3">On Floor 2, explore Bible in the World, where guests can explore the Bible’s impact on fashion, literature, music, and more, and Bible in America, with artifacts tracing the Bible’s profound influence on American culture.</p>
+                                </div>
+                                <div class="common__card--image" data-aos="flip-up">
+                                    <img src="assets/img/card-img-5.png" alt="card img 5">
+                                </div>
+                            </div>
+                            <div class="common__card">
+                                <div class="common__card--content pe-0 pe-sm-5 pb-4">
+                                    <h4>The History of the Bible</h4>
+                                    <p class="pe-0 pe-sm-5">On Floor 4, encounter hundreds of rare and beautiful artifacts as you discover the Bible’s history, from handwritten scrolls to mobile devices, as it was embraced by many communities with different traditions! </p>
+                                </div>
+                                <div class="common__card--image" data-aos="flip-up">
+                                    <img src="assets/img/card-img-7.png" alt="card img 7">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="coulmn__card--wraper">
+                            <div class="common__card">                               
+                                <div class="common__card--image common__card--image__small mt-4 mt-md-0" data-aos="flip-up">
+                                    <img src="assets/img/card-img-6.png" alt="card img 6">
+                                </div>
+                                <div class="common__card--content pe-0 pe-sm-5 pb-4 mt-3">
+                                    <h4>Dead Sea Scrolls Exhibition</h4>
+                                    <p class="pe-0 pe-sm-5 pt-2">Displays ancient biblical manuscripts and historical texts.</p>
+                                </div>
+                            </div>
+                            <div class="common__card">                               
+                                <div class="common__card--image common__card--image__small" data-aos="flip-up">
+                                    <img src="assets/img/card-img-8.png" alt="card img 8">
+                                </div>
+                                <div class="common__card--content pe-0 pe-sm-5 pb-4 mt-3">
+                                    <h4>The People of the Land: History and Archaeology of Ancient Israel</h4>
+                                    <p class="pe-0 pe-sm-5 pt-2">On Floor 5, see fascinating archaeological discoveries from the Israel Antiquities Authority and learn more about life in ancient Israel in this long-term exhibit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="#" class="primary__btn mx-auto">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- EXHIBITS AREA END ---------------------------->
+
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------- BIBLE AREA START ---------------------------->
+        <section class="bible__area">
+            <div class="bible__slider--nav">
+                <div class="swiper-button-prev swiper-button"></div>
+                <div class="swiper-button-next swiper-button"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section__title d-flex justify-content-between">
+                            <div class="section__title-content" data-aos="fade-right">
+                                <h2>Is the Bible still relevant?</h2>
+                                <p>Come see for yourself inside a museum where ancient text meets modern dialogue—and curiosity is always welcome. From legendary archaeological digs to virtual reality adventures, here’s a sneak peek at what’s waiting for you.</p>
+                            </div>
+                            <a href="#" class="primary__btn">Explore More</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="bible__slider--wrap" data-aos="fade-up">
+                <div class="bible__wraper swiper">
+                    <div class="bible__card--wraper swiper-wrapper">
+                        <div class="bible__card swiper-slide">
+                            <div class="bible__card--image">
+                                <img src="assets/img/card-img-1.png" alt="card img 2">
+                            </div>
+                            <div class="bible__card--content">
+                                <h4>The History of the Bible</h4>
+                                <p>Encounter hundreds of rare and beautiful artifacts as you discover the Bible's history, from handwritten scrolls to mobile devices.</p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="#" class="bible__read--btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bible__card swiper-slide">
+                            <div class="bible__card--image">
+                                <img src="assets/img/card-img-2.png" alt="card img 1">
+                            </div>
+                            <div class="bible__card--content">
+                                <h4>The World of Jesus of Nazareth</h4>
+                                <p>Immerse yourself in first-century Nazareth: walk the streets, see the sights, and chat with the villagers. </p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="#" class="bible__read--btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bible__card swiper-slide">
+                            <div class="bible__card--image">
+                                <img src="assets/img/card-img-3.png" alt="card img 2">
+                            </div>
+                            <div class="bible__card--content">
+                                <h4>Bible in America</h4>
+                                <p>Trace the history of the Bible in America, from the first settlers to the twenty-first century, exploring the profound and sometimes complicated impact of this book on American culture. </p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="#" class="bible__read--btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bible__card swiper-slide">
+                            <div class="bible__card--image">
+                                <img src="assets/img/card-img-4.png" alt="card img 2">
+                            </div>
+                            <div class="bible__card--content">
+                                <h4>Bible in America</h4>
+                                <p>Trace the history of the Bible in America, from the first settlers to the twenty-first century, exploring the profound and sometimes complicated impact of this book on American culture. </p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="#" class="bible__read--btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bible__card swiper-slide">
+                            <div class="bible__card--image">
+                                <img src="assets/img/card-img-5.png" alt="card img 2">
+                            </div>
+                            <div class="bible__card--content">
+                                <h4>Bible in America</h4>
+                                <p>Trace the history of the Bible in America, from the first settlers to the twenty-first century, exploring the profound and sometimes complicated impact of this book on American culture. </p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="#" class="bible__read--btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- BIBLE AREA END ---------------------------->
+
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------- CONTACT AREA START ---------------------------->
+        <section class="contact__area">
+            <div class="container">
+                <div class="row contact__inner">
+                    <div class="col-md-6">
+                        <div class="contact__content">
+                            <h3>Subscribe to Museum of the Bible</h3>
+                            <p>Museum of the Bible members are essential to our mission to engage all people with the transformative power of the Bible.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="">
+                            <input type="email" placeholder="Your Email" data-aos="fade-up">
+                            <input type="text" placeholder="Your Name" data-aos="fade-up">
+                            <input type="submit" value="SUBSCRIBE NOW" class="mt-2" data-aos="fade-up">
+                        </form>
+                    </div>
+                    <img src="assets/img/logo.png" alt="logo" class="contact__logo--position" data-aos="zoom-in">
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- CONTACT AREA END ---------------------------->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------- FOOTER AREA START ---------------------------->
+        <section class="footer__area">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer__item">
+                            <div>
+                                <h4>Tickets</h4>
+                                <ul class="footer__menu">
+                                    <li><a href="#">Charter Boarding Passholders</a></li>
+                                    <li><a href="#">Helpful Tips & FAQ</a></li>
+                                    <li><a href="#">Attraction Rules</a></li>
+                                    <li><a href="#">Ark Hours</a></li>
+                                    <li><a href="#">Bring a Group</a></li>
+                                </ul>
+                            </div>
+                            <ul class="social__menu">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <div class="row gy-4">
+                            <div class="col-md-4">
+                                <div class="footer__item">
+                                    <div>
+                                        <h4>Plan Your Visit</h4>
+                                        <ul class="footer__menu">
+                                            <li><a href="#">Exhibits</a></li>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Museum Tours</a></li>
+                                            <li><a href="#">Family Dining</a></li>
+                                            <li><a href="#">FAQ</a></li>
+                                            <li><a href="#">Gift Shop</a></li>
+                                            <li><a href="#">Virtual Reality</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer__contact--list d-flex align-items-center">
+                                        <img src="assets/icons/phone.svg" alt="phone" class="footer__icon">
+                                        <div>
+                                            <h5>Phone</h5>
+                                            <span>(866) 430-MOTB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="footer__item">
+                                    <div>
+                                        <h4>About the Museum</h4>
+                                        <ul class="footer__menu">
+                                            <li><a href="#">Explore the Museum</a></li>
+                                            <li><a href="#">Post Exhibits</a></li>
+                                            <li><a href="#">Post Speaker Series</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer__contact--list d-flex align-items-center">
+                                        <img src="assets/icons/email.svg" alt="email" class="footer__icon">
+                                        <div>
+                                            <h5>Email</h5>
+                                            <span>CUSTOMERSERVICE@MBIBLE.ORG</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="footer__item ps-2">
+                                    <div>
+                                        <h4>More About Ark</h4>
+                                        <ul class="footer__menu">
+                                            <li><a href="#">Directions</a></li>
+                                            <li><a href="#">Jobs</a></li>
+                                            <li><a href="#">Press</a></li>
+                                            <li><a href="#">Donate</a></li>
+                                            <li><a href="#">Volunteer</a></li>
+                                            <li><a href="#">Accessibility</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer__contact--list d-flex align-items-center">
+                                        <img src="assets/icons/location-2.svg" alt="location 2" class="footer__icon">
+                                        <div>
+                                            <h5>Address</h5>
+                                            <span>400 4TH ST. SW <br> WASHINGTON, DC 20024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------- FOOTER AREA END ---------------------------->
+
+
+        <main>
+
+
+
+    </div>
+
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
