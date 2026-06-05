@@ -2,10 +2,6 @@
 
 @media screen and (max-width: 1620px) {
 
-    .bible__slider--nav {
-        right: 8% !important;
-    }
-
 }
 
 @media screen and (max-width: 1449px) {
@@ -233,12 +229,6 @@
         max-width: 797px;
     }
 
-    .bible__slider--nav {
-        right: 3% !important;
-        margin-top: 121px;
-        transform: translateX(31px);
-    }
-
     .bible__card--image {
         height: 280px;
     }
@@ -257,6 +247,10 @@
 
     .bible__read--btn {
         margin-top: 20px;
+    }
+
+    .bible__slider--wrap {
+        padding-top: 75px;
     }
 
     .contact__content h3 {
@@ -513,7 +507,7 @@
     }
 
     .section__title-content {
-        max-width: 600px;
+        max-width: 552px;
     }
 
     .bible__slider--wrap {
@@ -534,7 +528,8 @@
     }
 
     .bible__slider--nav {
-        right: 4% !important;
+        right: 12px;
+        bottom: 13px;
     }
 
     .contact__inner {
@@ -550,11 +545,11 @@
         height: 120px;
     }
 
-    form input {
+    form input,.form__submit {
         padding: 12px 15px;
     }
 
-    form input {
+    form input,.form__submit {
         font-size: 16px;
     }
 
@@ -599,7 +594,7 @@
         font-size: 13px;
     }
 
-    .header__top--right ul {
+    .header__top--right > ul {
         display: none;
     }
 
@@ -743,14 +738,6 @@
         padding: 68px 10px 138px;
     }
 
-    .bible__slider--nav {
-        right: 50% !important;
-        height: 10%;
-        z-index: 9;
-        transform: translate(50%, 150vh);
-        margin: 0;
-    }
-
     .bible__b {
         width: 300px;
         height: 256px;
@@ -767,6 +754,10 @@
     .common__card--content {
         padding: 20px 0px 0 0;
         text-align: center;
+    }
+
+    .section__title-content {
+        max-width: 552px;
     }
 
     .exhibits__area .primary__btn {
@@ -792,14 +783,8 @@
         margin-top: 25px;
     }
 
-    form input {
+    form input, .form__submit {
         padding: 9px 15px;
-    }
-
-    form input[type="submit"] {
-        background: #fff;
-        color: #000;
-        z-index: 1;
     }
 
     .contact__logo--position {
@@ -826,21 +811,6 @@
 
 /* SM Small Device :550px. */
 
-@media (min-width: 575px) and (max-width: 767px) {
-
-    .bible__slider--nav {
-        transform: translate(50%, 150vh);
-    }
-
-    .bible__slider--nav {
-        right: 50% !important;
-        height: 10%;
-        z-index: 9;
-        transform: translate(50%, 141vh);
-        margin: 0;
-    }
-
-}
 
 @media screen and (max-width: 950px){
 
@@ -849,10 +819,3 @@
     }
 }
 
-@media screen and (max-width: 400px){
-    
-    .bible__slider--nav {
-        transform: translate(50%, 170vh);
-    }
-
-}
